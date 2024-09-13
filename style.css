@@ -1,0 +1,569 @@
+.navbar {
+  border-bottom: 1px solid lightgray;
+  margin-top: 20px;
+}
+
+.menus {
+  margin-left: auto;
+}
+
+.hire, .offer {
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.hire:hover, .offer:hover {
+  background-color: #e9ecef;
+}
+
+.undropdown button {
+  color: #62646a;
+}
+
+.undropdown button:hover {
+  color: #1dbf73;
+  transform: scale(1.05);
+}
+
+.hero-section {
+  background: url('hero-md-x1.png') no-repeat center center / cover;
+  color: #fff;
+  padding: 120px 0;
+  margin-top: 70px;
+  border-radius: 20px;
+  height: 600px;
+}
+
+.container h1 {
+  font-family: Macan, Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  padding: 100px;
+  margin-top: -80px;
+}
+
+.highlight {
+  color: #1dbf73;
+}
+
+.input-group {
+  margin-top: -100px;
+  height: 60px;
+}
+
+.partner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.partner .Trusted {
+  color: #fff;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.partner ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.partner li {
+  margin-right: 20px;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cards div {
+  background-color: #fff;
+  width: 9%;
+  height: 110px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.cards img {
+  width: 50%;
+  height: auto;
+  padding: 1rem;
+}
+
+.cards label {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: -20px;
+}
+
+@media (max-width: 992px) {
+  .cards div {
+    width: 16%; /* Increase width for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .cards div {
+    width: 30%; /* Cards take more space on tablet screens */
+    margin-bottom: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .partner {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .cards div {
+    width: 35%; /* Adjust for smaller devices */
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .partner ul {
+    flex-direction: column;
+  }
+}
+
+
+.popular-service {
+    margin-top: 5rem;
+}
+
+.services {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allows wrapping of items on smaller screens */
+    cursor: pointer;
+}
+
+.services .pop1{
+    background-color: #00732e;
+    width: 15%;
+    min-height: 235px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; /* Adds space between cards on smaller screens */
+}
+.services .pop2{
+    background-color: #ff7640;
+    width: 15%;
+    min-height: 235px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; /* Adds space between cards on smaller screens */
+}
+.services .pop3{
+    background-color: #003912;
+    width: 15%;
+    min-height: 235px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; /* Adds space between cards on smaller screens */
+}
+.services .pop4{
+    background-color: #4d1727;
+    width: 15%;
+    min-height: 235px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; /* Adds space between cards on smaller screens */
+}
+.services .pop5{
+    background-color: #687200;
+    width: 15%;
+    min-height: 235px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; /* Adds space between cards on smaller screens */
+}
+.services .pop6{
+    background-color: #687200;
+    width: 15%;
+    min-height: 235px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; /* Adds space between cards on smaller screens */
+}
+.services .pop1 label, .services .pop2 label, .services .pop3 label, .services .pop4 label, .services .pop5 label, .services .pop6 label {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #fff;
+    padding: 10px;
+}
+
+.services .pop1 img, .services .pop2 img, .services .pop3 img, .services , .services .pop6 img {
+    padding: 10px;
+    width: 100%;
+    min-height: 235px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.services .pop4 img, .services .pop5 img{
+        padding: 10px;
+    width: 100%;
+    min-height: 235px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+/* Responsive behavior */
+
+@media (max-width: 1200px) {
+    .services .pop1, .services .pop2, .services .pop3, .services .pop4, .services .pop5, .services .pop6 {
+        width: 20%; /* Adjusts the width for medium-large screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .services .pop1, .services .pop2, .services .pop3, .services .pop4, .services .pop5, .services .pop6 {
+        width: 30%; /* Adjusts the width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .services .pop1, .services .pop2, .services .pop3, .services .pop4, .services .pop5, .services .pop6 {
+        width: 45%; /* Adjusts the width for tablet screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .services {
+        justify-content: center; /* Center the items for smaller screens */
+    }
+
+    .services .pop1, .services .pop2, .services .pop3, .services .pop4, .services .pop5, .services .pop6 {
+        width: 90%; /* Full width for mobile screens */
+    }
+}
+
+.freelance {
+    background-color: #fff;
+    width: 70%;
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: -130px;
+}
+
+.freelance h1 {
+    font-size: 50px;
+}
+
+/* For larger screens (desktops) */
+.freelanceCards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allows wrapping when space is constrained */
+}
+
+.freelanceCards > div {
+    background-color: #fff;
+    width: 22%;
+    height: 300px;
+    margin-top: 100px;
+    text-align: center; /* Center the text in each card */
+}
+
+.freelanceCards h3 {
+    margin-top: 30px;
+}
+
+.freelanceCards p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+/* Media queries for tablets */
+@media (max-width: 1024px) {
+    .freelance {
+        width: 80%;
+    }
+
+    .freelanceCards > div {
+        width: 45%;
+        margin: 15px 0; /* Add some margin between the cards */
+    }
+}
+
+/* Media queries for mobile screens */
+@media (max-width: 768px) {
+    .freelance {
+        width: 110%;
+        margin-top: 50px;
+    }
+
+    .freelance h1 {
+        font-size: 30px;
+        margin-left: 50px;
+
+    }
+
+    .freelanceCards {
+        flex-direction: column; /* Stack the cards vertically */
+        align-items: center;
+    }
+
+    .freelanceCards > div {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .freelance h1 {
+        font-size: 30px;
+    }
+
+    .freelanceCards > div {
+        width: 90%;
+    }
+}
+
+.videoAboutFiverr video {
+    background-color: darkgreen;
+    width: 100%;
+    height: auto; /* Allows the video to adjust its height based on width */
+    max-height: 700px; /* Sets a maximum height for larger screens */
+    border-radius: 20px;
+    object-fit: cover; /* Ensures the video covers its container properly */
+}
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+    .videoAboutFiverr video {
+        height: 500px; /* Reduce height for tablet devices */
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .videoAboutFiverr video {
+        height: 300px; /* Further reduce height for mobile devices */
+    }
+}
+
+/* Media query for very small screens (like small phones) */
+@media (max-width: 480px) {
+    .videoAboutFiverr video {
+        height: 200px; /* Minimum height for small devices */
+    }
+}
+
+
+.contentAboutFiverr {
+    background-color: #003912;
+    width: 100%;
+    height: auto; /* Adjust height based on content */
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+    justify-content: center; /* Center the content */
+    padding: 20px; /* Add some padding around the content */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.contentAboutFiverr .left {
+    width: 100%;
+    max-width: 50%; /* Ensure it does not exceed half the container width */
+    margin-top: 30px;
+}
+
+.contentAboutFiverr .left h3 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 2em; /* Adjust font size */
+}
+
+.contentAboutFiverr .left p {
+    color: #fff;
+    font-size: 1.5em; /* Adjust font size */
+    line-height: 1.4; /* Improve readability */
+}
+
+.contentAboutFiverr .left label {
+    color: #fff;
+    display: block; /* Ensures label takes full width */
+    margin-top: 20px; /* Adds space above the label */
+}
+
+.contentAboutFiverr .left h6 {
+    margin-top: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em; /* Adjust font size */
+}
+
+.contentAboutFiverr .left ul {
+    padding-left: 20px; /* Indent list items */
+}
+
+.contentAboutFiverr .left ul li {
+    color: #fff;
+    font-size: 1em; /* Adjust font size */
+}
+
+.contentAboutFiverr .left button {
+    background-color: #fc832b;
+    color: #fff;
+    margin-top: 20px; /* Space above the button */
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.right {
+    width: 100%;
+    max-width: 50%; /* Ensure it does not exceed half the container width */
+    text-align: center; /* Center align image */
+}
+
+.right img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 400px; /* Limit image height */
+    margin-top: 20px; /* Space above the image */
+}
+
+/* Media queries for tablets */
+@media (max-width: 1024px) {
+    .contentAboutFiverr .left {
+        width: 100%;
+        text-align: center; /* Center text in left section */
+    }
+
+    .contentAboutFiverr .left p {
+        font-size: 1.2em;
+    }
+
+    .contentAboutFiverr .left h3 {
+        font-size: 1.5em;
+    }
+
+    .contentAboutFiverr .left h6 {
+        font-size: 1em;
+    }
+
+    .right {
+        max-width: 100%;
+    }
+}
+
+/* Media queries for mobile screens */
+@media (max-width: 768px) {
+    .contentAboutFiverr {
+        flex-direction: column;
+        align-items: center; /* Center content */
+    }
+
+    .contentAboutFiverr .left {
+        width: 100%;
+        text-align: center; /* Center align text in left section */
+    }
+
+    .contentAboutFiverr .left p {
+        font-size: 1em;
+    }
+
+    .contentAboutFiverr .left h3 {
+        font-size: 1.2em;
+    }
+
+    .contentAboutFiverr .left h6 {
+        font-size: 0.9em;
+    }
+
+    .contentAboutFiverr .left ul {
+        padding-left: 0; /* Remove padding for small screens */
+    }
+
+    .contentAboutFiverr .left ul li {
+        font-size: 0.9em;
+    }
+
+    .right img {
+        max-height: 300px;
+    }
+}
+
+/* Media queries for very small screens */
+@media (max-width: 480px) {
+    .contentAboutFiverr .left p {
+        font-size: 0.8em;
+    }
+
+    .contentAboutFiverr .left h3 {
+        font-size: 1em;
+    }
+
+    .contentAboutFiverr .left h6 {
+        font-size: 0.8em;
+    }
+
+    .contentAboutFiverr .left ul li {
+        font-size: 0.8em;
+    }
+
+    .contentAboutFiverr .left button {
+        width: 120px;
+        height: 35px;
+    }
+
+    .right img {
+        max-height: 250px;
+    }
+}
+ .carousel-item img{
+    width: 200px;
+    height: 400px;
+}
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.footer ul{
+    list-style-type: none;
+    color: #74767e;
+    justify-content: space-between;
+
+}
+.logos{
+    margin-top: 70px;
+}
+.social-icons {
+    margin-top: -20px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.media{
+    width: 100%;
+    height: 50px;
+    
+}

@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-light">
+      <div class="container-fluid">
+        <svg width="89" height="27" viewBox="0 0 89 27" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 5%;height:auto; margin-left:100px;"><g fill="#404145"><path d="m81.6 13.1h-3.1c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-13.4h-2.5c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-18.4h6v2.8c1-2.2 2.3-2.8 4.3-2.8h7.3v2.8c1-2.2 2.3-2.8 4.3-2.8h2zm-25.2 5.6h-12.4c.3 2.1 1.6 3.2 3.7 3.2 1.6 0 2.7-.7 3.1-1.8l5.3 1.5c-1.3 3.2-4.5 5.1-8.4 5.1-6.5 0-9.5-5.1-9.5-9.5 0-4.3 2.6-9.4 9.1-9.4 6.9 0 9.2 5.2 9.2 9.1 0 .9 0 1.4-.1 1.8zm-5.7-3.5c-.1-1.6-1.3-3-3.3-3-1.9 0-3 .8-3.4 3zm-22.9 11.3h5.2l6.6-18.3h-6l-3.2 10.7-3.2-10.8h-6zm-24.4 0h5.9v-13.4h5.7v13.4h5.9v-18.4h-11.6v-1.1c0-1.2.9-2 2.2-2h3.5v-5h-4.4c-4.3 0-7.2 2.7-7.2 6.6v1.5h-3.4v5h3.4z"></path></g><g fill="#1dbf73"><path d="m85.3 27c2 0 3.7-1.7 3.7-3.7s-1.7-3.7-3.7-3.7-3.7 1.7-3.7 3.7 1.7 3.7 3.7 3.7z"></path></g></svg>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="menus">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: bold;margin-left: 600px;">
+                  Fiverr Pro
+                </a>
+                <ul class="dropdown-menu" style="margin-left: 600px;">
+                  <li><div class="hire" >
+                    <div class="hireimage" style="margin-top: 15px;">
+                      <img src="https://fiverr-res.cloudinary.com/npm-assets/layout-service/hire-freelancer.e3fcf5a.svg" alt="Hire Freelancer" style="width:50px; height:auto;">
+                    </div>
+                    <div class="hireGraph" style=" width: 300px;color: #404145;margin-left: 20px;">
+                      <h5>I'm looking to hire</h5>
+                      <h6 style="color: #62646a;">My team needs vetted freelance talent and a premium business solution.</h6>
+                    </div>
+                  </div></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: bold;">
+                Explore
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">
+                  <div class="Explore" style=" width: 350px;color: #404145;">
+                    <h5 style="font-weight:bold;">Answers</h5>
+                    <h6 style="color:#62646a;">Powered by AI, answered by Fiverr freelancers</h6>
+                  </div>
+                </a></li>
+              </ul>
+            </li>
+          </ul>
+                     <div class="undropdown">
+              <button type="button" class="btn btn-default" style="font-weight: bold;border: none;">English</button>
+              <button type="button" class="btn btn-default" style="font-weight: bold;border: none;">Become a seller</button>
+              <button type="button" class="btn btn-default" style="font-weight: bold;border: none;">Sign in</button>
+            </div>
+          <button class="btn btn-outline-success" type="submit" style="margin-right: 200px;">Join</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="hero-section">
+        <div class="text-center">
+          <h1>Find the right <span class="highlight">freelance</span><br>services, right away</h1>
+          <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+              <div class="input-group input-group-lg">
+                <input type="text" class="form-control" placeholder="Search for any service...">
+                <button class="btn btn-success" type="button"><i class="bi bi-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner mt-5">
+          <span class="Trusted">Trusted by :</span>
+          <ul class="d-flex justify-content-center align-items-center">
+            <li><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/meta.ff37dd3.svg" alt="meta" width="70" height="14"></li>
+            <li><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/google.e74f4d9.svg" alt="Google" width="53.41" height="17.87"></li>
+            <li><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/netflix.b310314.svg" alt="NETFLIX" width="53.64" height="14.37"></li>
+            <li><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/pg.22fca85.svg" alt="P&G" width="33.13" height="13.8"></li>
+            <li><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/paypal.d398de5.svg" alt="PayPal" width="53.01" height="12.69"></li>
+          </ul>
+        </div>
+      </section>
+
+ <div class="cards">
+    <div class="card1"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/programming-tech.49dbf0d.svg" alt="programming_tech" loading="lazy">
+        <label>Programming & Tech</label>
+    </div>
+    <div class="card2"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.3272c08.svg" alt="graphics_design" loading="lazy">
+     <label>Graphics &amp; Design</label> 
+    </div>
+    <div class="card3"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/digital-marketing.85e8846.svg" alt="digital_marketing" loading="lazy">
+     <label>Digital Marketing</label> 
+    </div>
+    <div class="card4"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/writing-translation.dc66eb8.svg" alt="writing_translation" loading="lazy">
+     <label>Writing &amp; Translation</label> 
+    </div>
+    <div class="card5"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/video-animation.21fb1d6.svg" alt="video_animation" loading="lazy">
+     <label>Video &amp; Animation</label> 
+    </div>
+    <div class="card6"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/ai-services.40511da.svg" alt="ai_services" loading="lazy">
+    <label>AI Services</label>
+    </div>
+    <div class="card7"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/music-audio.6a411f2.svg" alt="music_audio" loading="lazy">
+     <label>Music &amp; Audio</label> 
+    </div>
+    <div class="card8"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/business.772c3c9.svg" alt="business" loading="lazy">
+      <label>Businesss</label> 
+    </div>
+    <div class="card9"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/consulting.93989a4.svg" alt="consulting" loading="lazy">
+     <label>Consulting</label> 
+    </div>
+</div>
+
+
+<div class="popular-service"><h1>Popular services</h1></div>
+<div class="services">
+      <div class="pop1">
+        <label>Website Development</label>
+        <img src="pop1.jpg">
+    </div>
+        <div class="pop2">
+        <label>Logo Design</label>
+        <img src="pop2.jpg">
+    </div>
+        <div class="pop3">
+        <label>Seo</label>
+        <img src="pop3.jpg">
+    </div>
+  
+        <div class="pop4">
+        <label>Architecture & Interior Design</label>
+        <img src="pop4.jpg">
+    </div>
+  
+        <div class="pop5">
+        <label>Social Media Marketing</label>
+        <img src="pop5.jpg">
+    </div>  
+        <div class="pop6">
+        <label>Voice Over</label>
+        <img src="pop6.jpg">
+    </div>              
+
+</div>
+
+
+ <div class="freelance">
+      <h1>A whole world of freelance talent at your fingertips</h1>
+  </div>
+
+  <div class="freelanceCards">
+      <div class="freelance1">
+          <img class="_19aaquz1j" alt="Over 700 categories" src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/categories.72379ee.svg" style="--_19aaquz0: 100%;">
+          <h3>Over 700 categories</h3>
+          <p>Get results from skilled freelancers from all over the world, for every task, at any price point.</p>
+      </div>
+      <div class="freelance2">
+          <img class="_19aaquz1j" alt="Clear, transparent pricing" src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/handshake.287b5d3.svg" style="--_19aaquz0: 100%;">
+          <h3>Clear, transparent pricing</h3>
+          <p>Pay per project or by the hour (Pro). Payments only get released when you approve.</p>
+      </div> 
+      <div class="freelance3">
+          <img class="_19aaquz1j" alt="Quality work done faster" src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/lightning.2cded3f.svg" style="--_19aaquz0: 100%;">
+          <h3>Quality work done faster</h3>
+          <p>Filter to find the right freelancers quickly and get great work delivered in no time, every time.</p>
+      </div>
+      <div class="freelance4">
+          <img class="_19aaquz1j" alt="24/7 award-winning support" src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/support.660ad7f.svg" style="--_19aaquz0: 100%;">
+          <h3>24/7 award-winning support</h3>
+          <p>Chat with our team to get your questions answered or resolve any issues with your orders.</p>
+      </div>        
+  </div>
+
+
+  <div class="videoAboutFiverr">
+<video class="_19aaquz1j _1rfvtgw1g" autoplay="" controls="" poster="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/ef51b45f79342925d5268e0b2377eae8-1704717764992/thumbnail.png" preload="auto" crossorigin="anonymous" role="video" playsinline="" style="--_19aaquz0: 100%; object-fit: cover;"><source role="source" src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v1/video-attachments/generic_asset/asset/e0f330e4c8d6e3bf843a3bd3164fa275-1706087048062/How%20Fiverr%20Works%20EN%20Subs%2016x9" type="video/mp4"></video>
+</div>
+
+
+<div class="contentAboutFiverr">
+    <div class="left">
+        <h3>Fiverr pro.</h3>
+        <p>New e-Commerce<br>
+project management<br> service made for your<br> business</p>
+<label>An experienced e-Commerce project manager will plan, coordinate, and execute your project. Overseeing a team of e-Commerce experts, they'll handle everything from site building, design and content to optimization, marketing strategies, and UGC videos.</label>
+
+<h6>To get started, you should have:</h6>
+
+<ul>
+    <li>An e-Commerce project requiring expertise in various fields</li>
+    <li>A budget exceeding $1000</li>
+    <li>A budget exceeding $1000</li>
+    <li>A desire to get things done, without the hassle</li>
+</ul>
+
+<button>Get Started</button>
+    </div>
+
+    <div class="right"><img alt="Fiverr Pro freelancers" src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_1.0/v1/attachments/generic_asset/asset/d85c8f7113e7f18d6fca144840de5afa-1718619183018/X1.png" loading="lazy" width="600px" height="auto"></div>
+</div>
+<hr style="margin-top:100px;width: 100%;">
+<div class="footer">
+  <div class="g-col-6 g-col-md-4">
+    <ul>
+      <li style="font-weight:bold;font-size:20px;">Categories</li><br>
+      <li>Graphics & Design</li><br>
+      <li>Digital Marketing</li><br>
+      <li>Writing & Translation</li><br>
+      <li>Video & Animation</li><br>
+      <li>Music & Audio</li><br>
+      <li>Fiverr Logo Maker</li><br>
+      <li>Programming & Tech</li><br>
+      <li>Data</li><br>
+      <li>Business</li><br>
+      <li>Personal Growth & Hobbies</li><br>
+      <li>Photography</li><br>
+      <li>Finance</li><br>
+      <li>End-to-End Projects</li><br>
+      <li>Sitemap</li><br>
+ </ul>
+  </div>
+  <div class="g-col-6 g-col-md-4">
+   <ul>
+       <li style="font-weight:bold;font-size:20px;">About</li><br>
+      <li>Careers</li><br>
+      <li>Press & News</li><br>
+      <li>Partnerships</li><br>
+      <li>Privacy Policy</li><br>
+      <li>Terms of Service</li><br>
+      <li>Intellectual Property Claims</li><br>
+      <li>Investor Relations</li><br>
+   </ul>
+  </div>
+  <div class="g-col-6 g-col-md-4">
+       <ul>
+       <li style="font-weight:bold;font-size:20px;">Support and Education</li><br>
+      <li>Help & Support</li><br>
+      <li>Trust & Safety</li><br>
+      <li>Quality Guide</li><br>
+      <li>Selling on Fiverr</li><br>
+      <li>Buying on Fiverr</li><br>
+      <li>Fiverr Guides</li><br>
+      <li>Learn Online Courses</li><br>
+   </ul>
+  </div>
+  <div class="g-col-6 g-col-md-4">
+    <ul>
+      <li style="font-weight:bold;font-size:20px;">Community</li><br>
+      <li>Customer Success Stories</li><br>
+      <li>Community Hub</li><br>
+      <li>Forum</li><br>
+      <li>Events</li><br>
+      <li>Blog</li><br>
+      <li>Creators</li><br>
+      <li>Affiliates</li><br>
+      <li>Podcast</li><br>
+      <li>Invite a Friend</li><br>
+      <li>Become a Seller</li><br>
+      <li>Community Standards</li><br>  
+    </ul>
+  </div>
+  <div class="g-col-6 g-col-md-4">
+        <ul>
+      <li style="font-weight:bold;font-size:20px;">Business Solutions</li><br>
+      <li>About Business Solutions</li><br>
+      <li>Fiverr Pro</li><br>
+      <li>Fiverr Certified</li><br>
+      <li>Become an Agency</li><br>
+      <li>Fiverr Enterprise</li><br>
+      <li>ClearVoice
+Content Marketing</li><br>
+      <li>Working Not Working</li><br>
+      <li>Contact Sales</li><br>  
+    </ul>
+  </div>
+</div>
+<hr>
+<div class="media">
+  <div class="logos" >
+ <span class="fiverr-logo-footer"><svg width="91" height="27" viewBox="0 0 91 27" fill="none" xmlns="http://www.w3.org/2000/svg"><g fill="#7A7D85"><path d="m82.9 13.1h-3.2c-2.1 0-3.2 1.5-3.2 4.1v9.3h-6.1v-13.4h-2.6c-2.1 0-3.2 1.5-3.2 4.1v9.3h-6.1v-18.4h6.1v2.8c1-2.2 2.4-2.8 4.4-2.8h7.4v2.8c1-2.2 2.4-2.8 4.4-2.8h2v5zm-25.6 5.6h-12.6c.3 2.1 1.6 3.2 3.8 3.2 1.6 0 2.8-.7 3.1-1.8l5.4 1.5c-1.3 3.2-4.6 5.1-8.5 5.1-6.6 0-9.6-5.1-9.6-9.5 0-4.3 2.6-9.4 9.2-9.4 7 0 9.3 5.2 9.3 9.1 0 .9 0 1.4-.1 1.8zm-5.9-3.5c-.1-1.6-1.3-3-3.3-3-1.9 0-3.1.8-3.4 3zm-23.1 11.3h5.3l6.7-18.3h-6.1l-3.2 10.7-3.4-10.8h-6.1zm-24.9 0h6v-13.4h5.7v13.4h6v-18.4h-11.6v-1.1c0-1.2.9-2 2.3-2h3.5v-5h-4.4c-4.5 0-7.5 2.7-7.5 6.6v1.5h-3.4v5h3.4z"></path></g><g fill="#7A7D85"><path d="m90.4 23.3c0 2.1-1.6 3.7-3.8 3.7s-3.8-1.6-3.8-3.7 1.6-3.7 3.8-3.7c2.2-.1 3.8 1.5 3.8 3.7zm-.7 0c0-1.8-1.3-3.1-3.1-3.1s-3.1 1.3-3.1 3.1 1.3 3.1 3.1 3.1 3.1-1.4 3.1-3.1zm-1.7.8.1.9h-.7l-.1-.9c0-.3-.2-.5-.5-.5h-.8v1.4h-.7v-3.5h1.4c.7 0 1.2.4 1.2 1.1 0 .4-.2.6-.5.8.4.1.5.3.6.7zm-1.9-1h.7c.4 0 .5-.3.5-.5 0-.3-.2-.5-.5-.5h-.7z"></path></g></svg></span>
+ <span class="copyright text-trunc" style="color:#74767e;margin-left: 500px;">© <!-- -->Steven Fiverr International Ltd. 2024</span>
+</div>
+</div>
+
+
+
+</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
